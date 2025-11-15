@@ -122,6 +122,3 @@ In `backend/workflows.py`, you can configure:
 
 - The `.env` file is not committed to the repository
 - Feature flag data is stored in-memory (in `backend/models.py`) for this demo
-- The dashboard uses a dark theme optimized for an internal tool aesthetic
-- All feature flags include realistic metadata (owner, system, group, risk level, dates, etc.)
-
