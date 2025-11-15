@@ -9,11 +9,6 @@ def test_checkout_new_flow_enabled():
     result = is_enabled("checkout_new_flow")
     assert isinstance(result, bool)
 
-def test_legacy_pricing_banner_disabled():
-    """Test that legacy_pricing_banner flag is disabled."""
-    result = is_enabled("legacy_pricing_banner")
-    assert result == False
-
 def test_analytics_tracking_v2_enabled():
     """Test that analytics_tracking_v2 flag is enabled."""
     result = is_enabled("analytics_tracking_v2")

@@ -50,19 +50,6 @@ FLAGS: list[FeatureFlag] = [
         notes="Gradual rollout of payment processor v2"
     ),
     FeatureFlag(
-        name="legacy_pricing_banner",
-        description="Show banner for legacy pricing plans",
-        owner="Growth",
-        risk_level="low",
-        status="candidate_cleanup",
-        date_created=date(2020, 11, 5),
-        last_used=date(2022, 6, 15),
-        system="Web",
-        group="feature",
-        ticket_id="GROWTH-27",
-        notes="No longer needed after pricing migration"
-    ),
-    FeatureFlag(
         name="beta_ai_assistant",
         description="Beta access to AI assistant feature",
         owner="Search & Relevance",
