@@ -4,11 +4,6 @@
     "description": "New checkout experience with improved UX",
     "owner": "Checkout Team"
   },
-  "legacy_pricing_banner": {
-    "enabled": false,
-    "description": "Show banner for legacy pricing plans",
-    "owner": "Growth"
-  },
   "analytics_tracking_v2": {
     "enabled": true,
     "description": "New analytics tracking implementation",
