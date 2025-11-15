@@ -1,0 +1,127 @@
+.flags-table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.error-message {
+  background-color: #7f1d1d;
+  color: #fca5a5;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  border: 1px solid #991b1b;
+}
+
+.flags-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.flags-table thead {
+  background-color: #2a2a2a;
+}
+
+.flags-table th {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #a3a3a3;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.flags-table td {
+  padding: 16px;
+  border-bottom: 1px solid #2a2a2a;
+  color: #e5e5e5;
+  font-size: 14px;
+}
+
+.flags-table tbody tr:hover {
+  background-color: #252525;
+}
+
+.flags-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.flag-name {
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.flag-description {
+  font-size: 12px;
+  color: #a3a3a3;
+  margin-top: 4px;
+}
+
+.risk-chip {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-active {
+  background-color: #065f46;
+  color: #6ee7b7;
+}
+
+.status-candidate {
+  background-color: #78350f;
+  color: #fcd34d;
+}
+
+.status-removing {
+  background-color: #1e3a8a;
+  color: #93c5fd;
+}
+
+.status-removed {
+  background-color: #374151;
+  color: #9ca3af;
+}
+
+.remove-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.remove-button:hover:not(:disabled) {
+  background-color: #2563eb;
+}
+
+.remove-button:disabled {
+  background-color: #374151;
+  color: #6b7280;
+  cursor: not-allowed;
+}
+

@@ -1,0 +1,53 @@
+{
+  "checkout_new_flow": {
+    "enabled": true,
+    "description": "New checkout experience with improved UX",
+    "owner": "Checkout Team"
+  },
+  "legacy_pricing_banner": {
+    "enabled": false,
+    "description": "Show banner for legacy pricing plans",
+    "owner": "Growth"
+  },
+  "analytics_tracking_v2": {
+    "enabled": true,
+    "description": "New analytics tracking implementation",
+    "owner": "Growth"
+  },
+  "caching_layer_enabled": {
+    "enabled": true,
+    "description": "Enable new caching layer",
+    "owner": "Infra"
+  },
+  "experimental_search": {
+    "enabled": false,
+    "description": "Experimental search features",
+    "owner": "Search & Relevance"
+  },
+  "new_notification_system": {
+    "enabled": true,
+    "description": "New notification delivery system",
+    "owner": "Operations"
+  },
+  "beta_ai_assistant": {
+    "enabled": true,
+    "description": "Beta access to AI assistant feature",
+    "owner": "Search & Relevance"
+  },
+  "payment_retry_logic": {
+    "enabled": true,
+    "description": "Improved payment retry mechanism",
+    "owner": "Billing Platform"
+  },
+  "legacy_checkout_flow": {
+    "enabled": false,
+    "description": "Legacy checkout flow for backwards compatibility",
+    "owner": "Checkout Team"
+  },
+  "search_alg_v3": {
+    "enabled": true,
+    "description": "New search algorithm version 3",
+    "owner": "Search & Relevance"
+  }
+}
+
