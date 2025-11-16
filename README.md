@@ -1,4 +1,5 @@
 # Devin Feature Flag Dashboard
+Demo: https://www.tella.tv/video/tame-feature-flags-with-devin-3efb
 
 An internal web dashboard that lists feature flags and lets you trigger Devin to remove a flag and open a PR against main.
 
