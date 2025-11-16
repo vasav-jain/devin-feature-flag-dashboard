@@ -31,18 +31,3 @@ def search_legacy(query: str) -> dict:
         "count": 1
     }
 
-def experimental_search(query: str) -> dict:
-    """
-    Experimental search features.
-    Only available if flag is enabled.
-    """
-    if not is_enabled("experimental_search"):
-        return {"error": "Experimental search not enabled"}
-    
-    return {
-        "query": query,
-        "algorithm": "experimental",
-        "results": [f"Experimental result for {query}"],
-        "features": ["autocomplete", "suggestions"]
-    }
-

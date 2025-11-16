@@ -193,19 +193,6 @@ FLAGS: list[FeatureFlag] = [
         notes="Retry logic is now standard"
     ),
     FeatureFlag(
-        name="experimental_search",
-        description="Experimental search features",
-        owner="Search & Relevance",
-        risk_level="low",
-        status="candidate_cleanup",
-        date_created=date(2020, 8, 20),
-        last_used=date(2021, 12, 15),
-        system="ML",
-        group="experiment",
-        ticket_id=None,
-        notes="Old experimental features"
-    ),
-    FeatureFlag(
         name="api_rate_limiting",
         description="API rate limiting enforcement",
         owner="Infra",

@@ -1,7 +1,7 @@
 """
 Tests for search module.
 """
-from src.search import search, experimental_search, search_v3, search_legacy
+from src.search import search, search_v3, search_legacy
 
 def test_search():
     """Test search with feature flag."""
@@ -18,10 +18,4 @@ def test_search_legacy():
     """Test legacy search algorithm."""
     result = search_legacy("test")
     assert result["algorithm"] == "legacy"
-
-def test_experimental_search():
-    """Test experimental search."""
-    result = experimental_search("test")
-    # May return error if flag is disabled
-    assert isinstance(result, dict)
 
