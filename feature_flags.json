@@ -1,9 +1,4 @@
 {
-  "checkout_new_flow": {
-    "enabled": true,
-    "description": "New checkout experience with improved UX",
-    "owner": "Checkout Team"
-  },
   "analytics_tracking_v2": {
     "enabled": true,
     "description": "New analytics tracking implementation",
