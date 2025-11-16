@@ -14,11 +14,6 @@
     "description": "Enable new caching layer",
     "owner": "Infra"
   },
-  "experimental_search": {
-    "enabled": false,
-    "description": "Experimental search features",
-    "owner": "Search & Relevance"
-  },
   "new_notification_system": {
     "enabled": true,
     "description": "New notification delivery system",
