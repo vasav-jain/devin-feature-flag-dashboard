@@ -50,19 +50,6 @@ FLAGS: list[FeatureFlag] = [
         notes="Gradual rollout of payment processor v2"
     ),
     FeatureFlag(
-        name="beta_ai_assistant",
-        description="Beta access to AI assistant feature",
-        owner="Search & Relevance",
-        risk_level="medium",
-        status="active",
-        date_created=date(2023, 6, 1),
-        last_used=date(2024, 1, 10),
-        system="ML",
-        group="experiment",
-        ticket_id="ML-88",
-        notes="Beta testing for AI features"
-    ),
-    FeatureFlag(
         name="search_alg_v3",
         description="New search algorithm version 3",
         owner="Search & Relevance",

@@ -4,9 +4,9 @@ Tests for AI assistant module.
 from src.ai_assistant import get_ai_response
 
 def test_get_ai_response():
-    """Test getting AI response with feature flag."""
+    """Test getting AI response."""
     result = get_ai_response("Hello")
     assert isinstance(result, dict)
-    # May return error if flag is disabled
-    assert "response" in result or "error" in result
+    assert "response" in result
+    assert result["status"] == "success"
 

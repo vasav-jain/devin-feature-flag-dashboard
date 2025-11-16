@@ -19,11 +19,6 @@
     "description": "New notification delivery system",
     "owner": "Operations"
   },
-  "beta_ai_assistant": {
-    "enabled": true,
-    "description": "Beta access to AI assistant feature",
-    "owner": "Search & Relevance"
-  },
   "payment_retry_logic": {
     "enabled": true,
     "description": "Improved payment retry mechanism",
