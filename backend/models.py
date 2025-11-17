@@ -102,19 +102,6 @@ FLAGS: list[FeatureFlag] = [
         notes="Already fully rolled out"
     ),
     FeatureFlag(
-        name="mobile_app_v2",
-        description="Mobile app version 2 features",
-        owner="Growth",
-        risk_level="medium",
-        status="active",
-        date_created=date(2023, 2, 14),
-        last_used=date(2024, 1, 8),
-        system="Web",
-        group="experiment",
-        ticket_id="MOBILE-56",
-        notes="Gradual mobile app rollout"
-    ),
-    FeatureFlag(
         name="analytics_tracking_v2",
         description="New analytics tracking implementation",
         owner="Growth",
