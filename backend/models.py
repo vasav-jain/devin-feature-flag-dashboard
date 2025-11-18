@@ -37,19 +37,6 @@ FLAGS: list[FeatureFlag] = [
         notes="Legacy checkout path for old contracts"
     ),
     FeatureFlag(
-        name="payments_v2_rollout",
-        description="Rollout flag for new payments infrastructure",
-        owner="Billing Platform",
-        risk_level="high",
-        status="active",
-        date_created=date(2022, 1, 10),
-        last_used=date(2024, 1, 5),
-        system="Backend",
-        group="migration",
-        ticket_id="BILLING-45",
-        notes="Gradual rollout of payment processor v2"
-    ),
-    FeatureFlag(
         name="beta_ai_assistant",
         description="Beta access to AI assistant feature",
         owner="Search & Relevance",
