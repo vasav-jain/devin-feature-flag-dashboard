@@ -1,23 +1,14 @@
 """
 Tests for checkout module.
 """
-from src.checkout import process_checkout, new_checkout_flow, legacy_checkout_flow
+from src.checkout import process_checkout
 
 def test_process_checkout():
-    """Test checkout processing with feature flag."""
+    """Test checkout processing uses new checkout flow."""
     result = process_checkout("user123", ["item1", "item2"])
     assert result["status"] == "success"
-    assert "flow" in result
-
-def test_new_checkout_flow():
-    """Test new checkout flow."""
-    result = new_checkout_flow("user123", ["item1"])
     assert result["flow"] == "new"
+    assert result["user_id"] == "user123"
+    assert result["items"] == ["item1", "item2"]
     assert result["message"] == "Using new checkout experience"
-
-def test_legacy_checkout_flow():
-    """Test legacy checkout flow."""
-    result = legacy_checkout_flow("user123", ["item1"])
-    assert result["flow"] == "legacy"
-    assert result["message"] == "Using legacy checkout flow"
 

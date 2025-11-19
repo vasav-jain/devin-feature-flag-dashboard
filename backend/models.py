@@ -24,19 +24,6 @@ class FeatureFlag(BaseModel):
 # Generate realistic feature flags
 FLAGS: list[FeatureFlag] = [
     FeatureFlag(
-        name="checkout_new_flow",
-        description="New checkout experience with improved UX",
-        owner="Checkout Team",
-        risk_level="medium",
-        status="candidate_cleanup",
-        date_created=date(2021, 3, 15),
-        last_used=date(2023, 8, 20),
-        system="Web",
-        group="experiment",
-        ticket_id="ENG-101",
-        notes="Legacy checkout path for old contracts"
-    ),
-    FeatureFlag(
         name="payments_v2_rollout",
         description="Rollout flag for new payments infrastructure",
         owner="Billing Platform",
